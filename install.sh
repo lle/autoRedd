@@ -169,7 +169,7 @@ mysql -uroot -sse "FLUSH PRIVILEGES;"
 
 # Download the cronnit SQL schema and import it
 if [ ! -f /root/cronnit.sql ]; then
-    wget -O /root/cronnit.sql "https://cronnit.com/cronnit.sql"
+    wget -O /root/cronnit.sql "https://github.com/lle/autoRedd/public_html/cronnit.sql"
 fi
 
 mysql -uroot cronnit < /root/cronnit.sql
@@ -197,7 +197,7 @@ su cronnit <<EOF
 
     if [ ! -d .git ]; then
         git init
-        git remote add origin https://github.com/krisives/cronnit.com
+        git remote add origin https://github.com/lle/autoRedd/
     fi
 
     git pull origin master
