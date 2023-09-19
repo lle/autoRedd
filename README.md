@@ -1,9 +1,3 @@
-
-# Cronnit
-
-A free service for making scheduled posts to Reddit. It's available at
-https://cronnit.com or you can download the code and host it yourself!
-
 ## Installation
 
 ### Quick Install
@@ -125,9 +119,3 @@ VirtualBox 6.1.6 r137129
     You should find yourself logged in as `cronnit@ubuntu-focal`.
 
 You should be able to access the server by navigating to `cronnit.local` in your browser.
-
-
-## Donate
-
-If you find Cronnit useful as a tool or source please consider
-[making a donation](https://cronnit.com/donate)!
